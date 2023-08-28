@@ -1,0 +1,28 @@
+*{
+    box-sizing: content-box;
+}
+img{
+    width: 100%;
+}
+.header{
+    max-width: 1000px;
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+.search{
+    width: 100%;
+}
+
+input{
+    width: 100%;
+}
+.logo{
+    width: 30px;
+}
+.user{
+    justify-self: flex-end;
+    width: 30px;
+}

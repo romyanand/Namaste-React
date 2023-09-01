@@ -2,7 +2,7 @@
 
 ### Q/ What is the difference between Named export, Default export and \* as export
 A/ **Default export**  
-```json
+```
 const Component = () => {...}
 export default Component
     
@@ -11,7 +11,7 @@ import Component from 'relativePath'
 We often use this type of export when we want to export a single function
 
 **Named Export**
-```json
+```
 export const Component = () => {...}
 
 import { Component } from 'relativePath'
@@ -20,7 +20,7 @@ import { Component } from 'relativePath'
 We use named export to export multiple functions as one module can only contain single default export
 
 **(\*) as export**
-```json
+```
 export const Component = () => {...}
 export const var = 12
 export function randomFunction(){...}

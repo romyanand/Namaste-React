@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+
+}
+
+
+/* HEADER STYLES */
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+}
+.logo{
+    width: 5em;
+}
+
+.nav-bar{
+    justify-content: flex-end;
+    flex-grow: 1;
+    display: flex;
+    gap: 50px;
+    padding: 1em;
+
+}
+.login-btn{
+    cursor: pointer;
+    padding: 1em;
+    margin-left: 1em;
+
+}
+
+
+/* BODY STYLES */
+
+.body{
+    padding: 1em;
+}
+
+.filter-btn{
+    padding: 1em;
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+.search-bar{
+    padding: 1em;
+    flex-grow: 1;
+    margin-right: 1em;
+
+}
+
+.search-btn{
+    padding: 1em;
+    cursor: pointer;
+}
+.user-action{
+    display: flex;
+    align-items: center;
+}
+
+
+/* RES-CONTAINER INSIDE BODY STYLES */
+.res-container{
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    align-content: center;
+}
+.res-image{
+    height: 200px;
+    border-radius: 1em 1em 0 0;
+}
+
+.res-image img{
+    border-radius: 1em 1em 0 0;
+}
+.res-card{
+    width: 300px;
+    border-radius: 1em;
+    background-color: lightgrey;
+}
+.res-card:hover{
+    border: 1px solid black;
+}
+
+.res-info{
+    padding: 1em;
+}
+
+
+/* SHIMMER UI STYLES */
+
+.shimmer{
+    padding: 1em;
+}
+
+.shimmer__res-container{
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    align-content: center;
+}
+
+.shimmer__res-card{
+    height: 300px;
+    width: 300px;
+    border-radius: 1em;
+    background-color: lightgrey;    
+}

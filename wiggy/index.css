@@ -9,30 +9,3 @@ body{
     margin-top: 5em;
     color: darkblue;
 }
-
-#appLayout{
-    width: 80%;
-    max-width: 800px;
-    margin: 0 auto;
-    border: 1px solid black;
-    padding: 5em;
-}
-
-
-#content-box{
-    border: 1px solid black;
-    padding: 2em;
-    margin: 2em;
-}
-
-#par-1{
-    border: 1px solid black;
-    padding: 1em;
-    margin: 1em;
-}
-
-#par-2{
-    border: 1px solid black;
-    padding: 1em;
-    margin: 1em;
-}

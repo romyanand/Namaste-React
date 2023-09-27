@@ -1,8 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-const header = React.createElement("div", {className: "title"}, [React.createElement("h1", {}, "This is an h1 heading"), React.createElement("h2", {}, "This is an h2 heading"), React.createElement("h3", {}, "This is an h3 heading")])
 
+const header = <div className='title'>
+  <h1>This is an h1 heading</h1>
+  <h2>This is an h2 heading</h2>
+  <h3>This is an h3 heading</h3>
+</div>
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 
